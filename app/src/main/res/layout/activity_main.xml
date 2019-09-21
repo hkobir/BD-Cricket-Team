@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/banner2"
+        />
+    <!--1)mash,tamim,mushfiq-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_marginBottom="8dp"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/mashrafe2"
+            />
+        <Button
+            android:layout_margin="1dp"
+            android:id="@+id/mashBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="profile"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:background="@drawable/button_radius"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/tamim2"
+            />
+        <Button
+            android:layout_margin="1dp"
+            android:id="@+id/tamimBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="profile"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:background="@drawable/button_radius"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/mushfiq2"
+            />
+        <Button
+            android:layout_margin="1dp"
+            android:id="@+id/mushfiqBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="profile"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:background="@drawable/button_radius"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+    <!--2)sakib,mahmudullah,somya-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/sakibID"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/sakib2"
+                />
+            <Button
+                android:id="@+id/sakibBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="profile"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_radius"
+                android:textColor="#fff"
+                android:layout_margin="1dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mahmudullahID"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/mahmudullah2"
+                />
+            <Button
+                android:id="@+id/mahmudullahBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="profile"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_radius"
+                android:textColor="#fff"
+                android:layout_margin="1dp"
+                />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/somya2"
+                />
+            <Button
+                android:id="@+id/sumyaBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="profile"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_radius"
+                android:textColor="#fff"
+                android:layout_margin="1dp"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <!--3)liton,mehedy,mithun-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/liton2"
+                />
+            <Button
+                android:id="@+id/litonBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="profile"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_radius"
+                android:textColor="#fff"
+                android:layout_margin="1dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/mehedy2"
+                />
+            <Button
+                android:id="@+id/mehedyBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="profile"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_radius"
+                android:textColor="#fff"
+                android:layout_margin="1dp"
+                />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/mithun2"
+                />
+            <Button
+                android:id="@+id/mithunBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="profile"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_radius"
+                android:textColor="#fff"
+                android:layout_margin="1dp"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <!--4)musaddik,sabbir,mustafiz-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/musaddik2"
+                />
+            <Button
+                android:id="@+id/musaddiqBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="profile"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_radius"
+                android:textColor="#fff"
+                android:layout_margin="1dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/sabbir2"
+                />
+            <Button
+                android:id="@+id/sabbirBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="profile"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_radius"
+                android:textColor="#fff"
+                android:layout_margin="1dp"
+                />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/mustafiz2"
+                />
+            <Button
+                android:id="@+id/mustafizBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="profile"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_radius"
+                android:textColor="#fff"
+                android:layout_margin="1dp"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <!--5)rubel,rahi,saif-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/rubel2"
+                />
+            <Button
+                android:id="@+id/rubelBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="profile"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_radius"
+                android:textColor="#fff"
+                android:layout_margin="1dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/rahi2"
+                />
+            <Button
+                android:id="@+id/rahiBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="profile"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_radius"
+                android:textColor="#fff"
+                android:layout_margin="1dp"
+                />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/saif2"
+                />
+
+            <Button
+                android:layout_margin="1dp"
+                android:id="@+id/saifBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/button_radius"
+                android:text="profile"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
